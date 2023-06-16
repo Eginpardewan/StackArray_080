@@ -14,6 +14,7 @@ public:
         top = -1;
     }
 
+
     void push() {
         int element;
         cout << "masukkan element : ";
@@ -30,6 +31,7 @@ public:
         cout << element << " ditambahkan(pushed)  " << endl;
 
     }
+
 
     void pop() {
         if (empty()) { //step 1 
