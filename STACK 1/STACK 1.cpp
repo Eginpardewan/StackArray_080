@@ -69,6 +69,7 @@ int main() {
         cout << "\nEnter yout choice (1-4): ";
         cin >> ch;
 
+
         switch (ch) {
         case '1': {
             s.push();
