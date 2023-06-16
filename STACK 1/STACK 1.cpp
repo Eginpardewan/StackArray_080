@@ -30,6 +30,7 @@ public:
         cout << element << " ditambahkan(pushed)  " << endl;
 
     }
+
     void pop() {
         if (empty()) { //step 1 
             cout << "\nStack is empty. Cannot pop." << endl; //1.a 
@@ -56,7 +57,6 @@ public:
 };
 int main() {
     StackArray s;
-    char ch;
     char ch;
     while (true) {
         cout << "\nMenu" << endl;
